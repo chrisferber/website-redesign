@@ -20,6 +20,34 @@ body:after {
 /* ////// */
 /* GLOBAL */
 /* ////// */
+#newBeerHero {
+	position: relative;
+}
+#sendBeerEveryMonthBtnWrap {
+	position: relative;
+	margin-left: 100px;
+}
+#sendBeerEveryMonthBtn {
+	background-color: green;
+	position: absolute;
+	z-index: 1;
+	color: white;
+	margin-top: 150px;
+}
+#new-header-two-wrap {
+	position: relative;
+	margin-left: 100px;
+	max-width: 300px;
+}
+.new-header-two {
+	position: absolute;
+	z-index: 1;
+	font-size: 1.5em;
+	color: white;
+	background: rgba(0, 0, 0, 0.7);
+	line-height: 1.5em;
+	margin-top: 70px;
+}
 body {
 	font-size: 1em;
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
