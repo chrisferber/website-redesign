@@ -33,6 +33,7 @@ body:after {
 	z-index: 1;
 	color: white;
 	margin-top: 150px;
+	border-radius: 0%;
 }
 #new-header-two-wrap {
 	position: relative;
@@ -47,6 +48,7 @@ body:after {
 	background: rgba(0, 0, 0, 0.7);
 	line-height: 1.5em;
 	margin-top: 70px;
+	padding-left: 10px;
 }
 body {
 	font-size: 1em;
@@ -1243,6 +1245,29 @@ ul#breadcrumbs li {
 .no-padding {
 	padding: 0;
 }
+#ac-2-sprite-question {
+	width: 60px;
+	height: 60px;
+	background: url(https://clientinstalls.s3.amazonaws.com/TrinityInsight/TI-MockTest/AC+Sprite/AC-Hero-Test-Sprite-2x.png) 0 0;
+  }
+  
+#ac-2-sprite-star {
+	width: 30px;
+	height: 30px;
+	background: url(https://clientinstalls.s3.amazonaws.com/TrinityInsight/TI-MockTest/AC+Sprite/AC-Hero-Test-Sprite-2x.png) -115px -17px;
+  }
+ 
+  #ac-2-sprite-wine {
+	width: 30px;
+	height: 50px;
+	background: url(https://clientinstalls.s3.amazonaws.com/TrinityInsight/TI-MockTest/AC+Sprite/AC-Hero-Test-Sprite-2x.png) -67px -5px;
+  }
+
+  #ac-2-sprite-typewriter {
+	width: 50px;
+	height: 50px;
+	background: url(https://clientinstalls.s3.amazonaws.com/TrinityInsight/TI-MockTest/AC+Sprite/AC-Hero-Test-Sprite-2x.png) -162px -5px;
+  }
 /* ////// */
 /* HEADER */
 /* ////// */
