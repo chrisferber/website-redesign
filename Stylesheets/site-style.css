@@ -20,6 +20,9 @@ body:after {
 /* ////// */
 /* GLOBAL */
 /* ////// */
+#they-love-it-img {
+	margin-top: 50px;
+}
 #newBeerHero {
 	position: relative;
 }
@@ -2204,6 +2207,9 @@ footer a {
     margin-left: 5px;
 }
 /* badges */
+#bestValueBadge {
+	float: right;
+}
 #homeBadges {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -2640,7 +2646,7 @@ hr.header-divide {
     min-height: 150px;
 }
 #testSatisfied .header-two {
-    font-size: 2.188em;
+    font-size: 1.7em;
     margin-bottom: 15px;
 	line-height: 1em;
 }
@@ -6802,6 +6808,9 @@ input[type="text"]#reviewInputTitle {
 	}
 	#testBarHands {
 	    background-image: none;
+	}
+	#testBarWrap {
+		
 	}
 	#testSatisfied {
 	    background: url(./Images/thumbs-2x.png) no-repeat 10px bottom;

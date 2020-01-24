@@ -389,36 +389,7 @@
                                                                 <img src="https://clientinstalls.s3.amazonaws.com/TrinityInsight/TI-MockTest/AC+Image/AC-Hero-Test-Beer-Final.jpg">
                                                             </div>
                                                         </div>
-                                                        <!-- <div class="col-md-8 col-sm-9 col-xs-12 text-center" id="homeHeroHeader">
-                                                            <h1 class="header-two">Send America's #1 Gourmet Gift of the Month Clubs</h1>
-                                                            <div class="guar-stamp"><img src="./Images/guaranteed-hero-2x.png" width="555"></div>
-                                                        </div>
-                                                        <div class="col-md-4 col-sm-3 col-xs-7 right" id="homeHeroImgs">
-                                                            <div class="home-hero-img" data-slide="0">
-                                                                <a href="https://www.amazingclubs.com/beer.html" onclick="productClick({name:'This is Where the Product Title will go on the Cart Page', id:'XXX', price:'XXX', brand:'Amazing Clubs', category:'Beer Club', variant:'XXX', qty:'1'})"><img src="./Images/hero-beer-2x.jpg"></a>
-                                                            </div>
-                                                            <div class="home-hero-img active" data-slide="1">
-                                                                <a href="https://www.amazingclubs.com/wine.html" onclick="productClick({name:'This is Where the Product Title will go on the Cart Page', id:'XXX', price:'XXX', brand:'Amazing Clubs', category:'Beer Club', variant:'XXX', qty:'1'})"><img src="./Images/hero-wine-2x.jpg"></a>
-                                                            </div>
-                                                            <div class="home-hero-img" data-slide="2">
-                                                                <a href="https://www.amazingclubs.com/varietyofthemonthclub.html" onclick="productClick({name:'This is Where the Product Title will go on the Cart Page', id:'XXX', price:'XXX', brand:'Amazing Clubs', category:'Beer Club', variant:'XXX', qty:'1'})"><img src="./Images/hero-variety-2x.jpg"></a>
-                                                            </div>
-                                                            <div class="home-hero-img" data-slide="3">
-                                                                <a href="https://www.amazingclubs.com/coffee.html" onclick="productClick({name:'This is Where the Product Title will go on the Cart Page', id:'XXX', price:'XXX', brand:'Amazing Clubs', category:'Beer Club', variant:'XXX', qty:'1'})"><img src="./Images/hero-coffee-2x.jpg"></a>
-                                                            </div>
-                                                            <div class="home-hero-img" data-slide="4">
-                                                                <a href="https://www.amazingclubs.com/hotsauce.html" onclick="productClick({name:'This is Where the Product Title will go on the Cart Page', id:'XXX', price:'XXX', brand:'Amazing Clubs', category:'Beer Club', variant:'XXX', qty:'1'})"><img src="./Images/hero-hotsauce-2x.jpg"></a>
-                                                            </div>
-                                                            <div id="homeHeroNavWrap">
-                                                                <ul class="circle-nav" id="homeHeroNav">
-                                                                    <li class="" data-slide="0"></li>
-                                                                    <li data-slide="1" class="active"></li>
-                                                                    <li data-slide="2"></li>
-                                                                    <li data-slide="3"></li>
-                                                                    <li data-slide="4"></li>
-                                                                </ul>
-                                                            </div>
-                                                        </div> -->
+    
                                                 <!-- hero nav -->
                                                 
                                                 <!-- /hero nav -->
@@ -499,10 +470,8 @@
                                             </div> 
                     
                                             <!-- They'll Love It -->
-                    
-                                            <br> <br> <br>
                                                          
-                                            <img src="./Images/guaranteed-hero-2x.png" width="300" height="200">
+                                            <img id="they-love-it-img" src="./Images/guaranteed-hero-2x.png" width="300" height="200">
                                                          
                                     </div>
                                 </div>
@@ -729,34 +698,6 @@
                                 </div>
                                 <!-- /favorites -->
 
-                                <!-- variety -->
-                                <div class="row" id="homeVarietyWrap">
-                                    <div class="col-md-7">
-                                        <div id="homeVariety">
-                                            <div class="white-bg" id="homeVarietyBorder">
-                                                <div class="text-center" id="homeVarietyInner">
-                                                    <div id="homeVarietyHeader">
-                                                        <div class="header-one orange-text uppercase vbottom">Variety</div>
-                                                        <div class="header-two uppercase text-bold blue-text vbottom text-left"><span>Of the</span><span>Month Club</span></div>
-                                                    </div>
-                                                    <div class="header-three text-light">Build a club that gives them a taste of everything!</div>
-                                                    <p>Combine any of our gourmet selections into one awesome gift!</p>
-                                                    <a href="http://www.amazingclubs.com/varietyofthemonthclub.html" class="button orange-cta uppercase">Start Building</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5 text-center" id="homeGCWrap">
-                                        <div id="homeGC">
-                                            <div class="header-two uppercase text-bold blue-text">Can't Decide?</div>
-                                            <img src="./Images/gift-card-2x.png" width="113" height="70">
-                                            <div class="header-three text-light">Give them the gift of choice!</div>
-                                            <p>Our gift certificates are available in a variety of denominations and can be used to purchase any of our gourmet gift clubs.</p>
-                                            <a onclick="productClick({name:This is Where the Product Title will go on the Cart Page', id', XXX', price:'XXX', brand:&#39;Amazing Clubs&#39;, category:&#39;Beer Club&#39;, variant:&#39;XXX&#39;, qty:&#39;1&#39;})" href="http://www.amazingclubs.com/giftcertificates.html" class="button orange-cta uppercase">Buy Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /variety -->
                                 <!-- recomendations -->
                                 <div class="row home-favorites">
                                     <div class="col-md-12">
@@ -918,12 +859,41 @@
                                 </div>
                                 <!-- /recomendations -->
 
+ <!-- variety -->
+        <div class="row" id="homeVarietyWrap">
+            <div class="col-md-7">
+                <div id="homeVariety">
+                    <div class="white-bg" id="homeVarietyBorder">
+                        <div class="text-center" id="homeVarietyInner">
+                            <div id="homeVarietyHeader">
+                            <div class="header-one orange-text uppercase vbottom">Variety</div>
+                            <div class="header-two uppercase text-bold blue-text vbottom text-left"><span>Of the</span><span>Month Club</span></div>
+                        </div>
+                        <div class="header-three text-light">Build a club that gives them a taste of everything!</div>
+                            <p>Combine any of our gourmet selections into one awesome gift!</p>
+                            <a href="http://www.amazingclubs.com/varietyofthemonthclub.html" class="button orange-cta uppercase">Start Building</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 text-center" id="homeGCWrap">
+                <div id="homeGC">
+                    <div class="header-two uppercase text-bold blue-text">Can't Decide?</div>
+                    <img src="./Images/gift-card-2x.png" width="113" height="70">
+                    <div class="header-three text-light">Give them the gift of choice!</div>
+                    <p>Our gift certificates are available in a variety of denominations and can be used to purchase any of our gourmet gift clubs.</p>
+                    <a onclick="productClick({name:This is Where the Product Title will go on the Cart Page', id', XXX', price:'XXX', brand:&#39;Amazing Clubs&#39;, category:&#39;Beer Club&#39;, variant:&#39;XXX&#39;, qty:&#39;1&#39;})" href="http://www.amazingclubs.com/giftcertificates.html" class="button orange-cta uppercase">Buy Now</a>
+                </div>
+            </div>
+        </div>
+<!-- /variety -->
+
                                 <!-- customer testimonials -->
 
-        <div class="row-fluid" id="testBarWrap">
+        <!-- <div class="row-fluid" id="testBarWrap">
             <div class="row blue-bg" id="testBarHands">
                 <div class="col-md-5 col-sm-6" id="testSatisfied">
-                    <div class="header-two white-text">Over <strong class="text-italic">2 Million</strong> Satisfied Customers!</div>
+                    <div class="header-two white-text">Over 2 Million Satisfied Customers!</div>
                     <a href="http://www.amazingclubs.com/testimonials.html" class="white-text underline">view all testimonials<span class="sprite-img sprite-right-shift"></span></a>
                 </div>
                 <div class="col-md-7 col-sm-6 text-bg black-text" id="testQuotesWrap">
@@ -947,7 +917,7 @@
                                         <p class="test-quote">"If you love to give, then this is a great way to keep giving monthly, especially to distant family and friends!"</p>
                                         <p class="test-quote-by"><strong class="orange-text">Cosette S.</strong><span class="text-italic test-quote-from"> Brooklyn, NY</span></p>
                                     </div>
-                                </div>
+                               </div>
                             </div>
                             <div class="quote-slide" style="float: none; list-style: none; position: relative; width: 420.172px;" aria-hidden="false">
                                 <div class="row test-qoute-banner active">
@@ -1013,33 +983,33 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
                                 <!-- /customer testimonials -->
                                 <!-- home badges -->
                                 <div class="row" id="homeBadges">
                                     <!-- badge -->
-                                    <div class="col-md-3 col-sm-6 home-badge">
+                                    <div class="col-md-6 col-sm-6 home-badge">
                                         <div class="guar-stamp blue-border"><a href="http://www.amazingclubs.com/guarantee.html"><img src="./Images/guaranteed-footer-2x.png" width="224"></a></div>
                                         <p>We're so confidant in the quality of our #1 rated gift of the months clubs, we back every order with our unbeatable guarantee. It's simple. When you send a gift from Amazing Clubs, your recipient is going to love their gift. <a href="http://www.amazingclubs.com/guarantee.html">We guarantee it!</a></p>
                                     </div>
                                     <!-- /badge -->
                                     <!-- badge -->
-                                    <div class="col-md-3 col-sm-6 home-badge">
+                                    <div class="col-md-6 col-sm-6 home-badge">
                                         <img src="./Images/largest-selection-2x.png" width="171">
                                         <div class="header-two text-bold blue-border">Largest Selection</div>
                                         <p>From our award-winning <a href="http://www.amazingclubs.com/beer.html">Beer</a> and <a href="http://www.amazingclubs.com/wine.html">Wine of the Month Clubs</a> - to unique selections like <a href="http://www.amazingclubs.com/chocolate.html">Chocolate</a>, <a href="http://www.amazingclubs.com/coffee.html">Coffee</a>, <a href="http://www.amazingclubs.com/icecream.html">Ice Cream</a>, <a href="http://www.amazingclubs.com/bbq.html">BBQ Sauce</a>, and dozens more - we search the world to bring our customers these incredible gourmet items.</p>
                                     </div>
                                     <!-- /badge -->
                                     <!-- badge -->
-                                    <div class="col-md-3 col-sm-6 home-badge">
+                                    <div class="col-md-6 col-sm-6 home-badge" id="bestValueBadge">
                                         <img src="./Images/highest-quality-2x.png" width="150">
                                         <div class="header-two text-bold blue-border">Highest Quality</div>
                                         <p>We want to exceed your expectations. By utilizing our talented team of gourmet professionals, we are able to track down and sample only the highest quality products.</p>
                                     </div>
                                     <!-- /badge -->
                                     <!-- badge -->
-                                    <div class="col-md-3 col-sm-6 home-badge">
+                                    <div class="col-md-6 col-sm-6 home-badge">
                                         <img src="./Images/best-value-2x.png" width="113">
                                         <div class="header-two text-bold blue-border">Best Value</div>
                                         <p>When you shop with Amazing Clubs, we guarantee that you are always getting the lowest price. As the world's largest Gift of the Month Club provider, we're able to leverage our buying power to get you the best deal.</p>
